@@ -1,0 +1,91 @@
+.login-container {
+  background-color: #ffff;
+  padding: 0px;
+  border-radius: 8px;
+}
+.text-dangers {
+  color: #e92928 !important;
+  font-weight: 500;
+}
+a {
+  color: #e92928 !important;
+}
+.form-check-input:checked {
+  background-color: #e92928 !important;
+  border-color: #e92928 !important;
+}
+.login-form {
+  background-color: #ffff;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px 1px 0px 15px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.back-link {
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.brand-section {
+  background-color: #ff1e2d;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0px 15px 15px 156px;
+}
+
+.brand-logo h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.brand-logo h1 {
+  border: 1px solid #fff;
+
+  margin: 0;
+  font-size: 1.5rem;
+  width: 140%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-input {
+  border-radius: 10px;
+  margin: 5px;
+}
+.btn {
+  background: #e92928;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+}
